@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.moneyDetailsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  padding: 25px;
+}
+
+.balanceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 35%;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.detailsImg {
+  width: 70px;
+  margin: 24px;
+}
+
+.detailsText {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+.detailsMoney {
+  color: #475569;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+
+.incomeContainer {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.expenseContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ede9fe;
+  width: 35%;
+  border: 1px solid #7c3aed;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,140 @@
+/* Write your CSS here */
+.appContainer {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.responsiveContainer {
+  width: 80%;
+}
+
+.headerContainer {
+  background-color: #d7dfe9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-size: cover;
+  border-radius: 15px;
+  margin-top: 60px;
+  padding: 45px;
+}
+
+.heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.headerDescription {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.moneyManagerText {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+.transactionDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.transactionForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 40%;
+  padding: 25px;
+  border: 1px solid #cbd5e1;
+  border-radius: 15px;
+}
+
+.transactionHeader {
+  color: #475569;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.inputLabel {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.input {
+  color: #1e293b;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  border: 1px solid #d7dfe9;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-weight: 500;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  height: 35px;
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.historyTransactions {
+  width: 50%;
+  padding: 25px;
+  margin-left: 30px;
+  border: 1px solid #cbd5e1;
+}
+
+.transactionsTableContainer {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.transactionTable {
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+}
+
+.tableHeaderCell {
+  color: #334155;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  width: 30%;
+}

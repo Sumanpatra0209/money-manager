@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+}
+
+.transactionText {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Roboto';
+  width: 30%;
+}
+
+.deleteContainer {
+  display: flex;
+}
+
+.deleteButton {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border-style: none;
+}
+
+.deleteImg {
+  background: transparent;
+  width: 20px;
+  align-self: center;
+  border-style: none;
+  outline: none;
+  margin-right: 25px;
+}
